@@ -1250,10 +1250,7 @@ if not st.session_state.connected:
 
     st.markdown(
         """
-        <div class="info-box">
-            🔒 Credentials are kept in the current Streamlit session.
-            Do not hard-code API credentials into your GitHub repository.
-        </div>
+    
         """,
         unsafe_allow_html=True,
     )
@@ -2037,11 +2034,9 @@ if (
         )
 
     st.info(
-        "The Complete Excel contains all important data in one workbook: "
-        "RAW_ANGEL_ONE → CANDLE_DATA → SUMMARY → 10 Pattern Result sheets."
+        ""
     )
 
     st.caption(
-        "Complete Excel contains RAW_ANGEL_ONE + CANDLE_DATA + SUMMARY "
-        "+ all 10 pattern result sheets."
+        ""
     )
